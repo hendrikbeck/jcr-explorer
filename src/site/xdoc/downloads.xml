@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<document>
+	<properties>
+		<title>Downloads</title>
+	</properties>
+	<body>
+		<section name="JCR-Explorer Downloads">
+			<p>
+				There are two different kinds of downloads availabe, the
+				source package and the binary. They all can be found on
+				our SourceForge download page.
+			</p>
+			<p>
+				The recommended download version is
+				<b>jcr-explorer-binary 0.9.5</b>
+				.
+			</p>
+			<p>
+				<a
+					href="http://sourceforge.net/project/showfiles.php?group_id=193255"
+					class="externalLink" title="JCR-Explorer Downloads">
+					JCR-Explorer Downloads
+				</a>
+			</p>
+		</section>
+		<section name="JBoss-bundled Jumpstart Version">
+			<p>
+				We are currently putting a Jumpstart version together,
+				that is basically a JBoss AS bundled with a
+				pre-configured Jackrabbit and the newest JCR-Explorer.
+				Although it's not meant for production use, we made the
+				experience that it's pretty nice to check out JCR. Stay
+				tuned for that or contact us if you're interested in
+				it...
+			</p>
+		</section>
+	</body>
+</document>

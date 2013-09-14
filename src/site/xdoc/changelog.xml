@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<document>
+	<properties>
+		<title>Changelog</title>
+	</properties>
+	<body>
+		<section name="Changelog">
+			<subsection name="0.9.6-SNAPSHOT">
+				<p>
+					For bugfixes and features in the current snapshot
+					version please have a look the CHANGELOG.txt file
+					located in the root folder of the project in
+					Subversion. You can easily have a look at it via
+					<a
+						href="http://jcr-webexplorer.svn.sourceforge.net/viewvc/jcr-webexplorer/explorer/trunk/CHANGELOG.txt?view=markup"
+						class="externalLink" title="CHANGELOG.txt via ViewVC">
+						Subversion WebAccess
+					</a>
+				</p>
+			</subsection>
+			<subsection name="0.9.5">
+				<subsection name="New Features">
+					<ul>
+						<li>
+							BinaryViewerServlet fixed (JCR session was
+							not available) Thx to Markus Reis for
+							digging me into that
+						</li>
+						<li>CSS tuning</li>
+						<li>
+							Multi-value expansion now uses
+							JcrUtils.getEmptyValue() and is now possible
+							with all property types
+						</li>
+						<li>
+							Query and query results are put together
+							into one page (query.jsp)
+						</li>
+						<li>
+							Export provides now the choice between
+							exporting SystemView DocumentView
+						</li>
+						<li>
+							Changed the order of elements to follow the
+							DTD (some app server validate on deploy) -->
+							thanks to Tako Schotanus
+						</li>
+						<li>Added Lock as a new Module (</li>
+						<li>
+							.module.lock, LockWrapper). Initially
+							showing Lock info of the selected node in
+							separate tab
+						</li>
+						<li>
+							JSF message output added to login.jsp,
+							errors on login are displayed now
+						</li>
+						<li>
+							Initial version of observation console
+							implemented (#1726725)
+						</li>
+					</ul>
+				</subsection>
+				<subsection name="Bugfixes">
+					<ul>
+						<li>
+							StringValues of References should only
+							contain the UUID (#1735766)
+						</li>
+						<li>
+							Properties of type PATH and NAME become
+							STRING on save (#1720569)
+						</li>
+						<li>Refactored packages to org.jcrexplorer.</li>
+						<li>(#1763880)</li>
+						<li>
+							'Go' button in title bar now switches view
+							to content panel (#1770673)
+						</li>
+					</ul>
+				</subsection>
+			</subsection>
+		</section>
+	</body>
+</document>

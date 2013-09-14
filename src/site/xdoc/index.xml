@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<document>
+	<properties>
+		<title>JCR-Explorer</title>
+	</properties>
+	<body>
+		<div id="downloadbox">
+			<h3>Get JCR-Explorer</h3>
+			<p>
+				<a href="downloads.html">JCR-Explorer 0.9.5 Binary</a>
+				<small>(4.6Mb)</small>
+				<span style="font-size: smaller">
+					Released: 9 August 2007
+				</span>
+			</p>
+		</div>
+		<section
+			name="JCR-Explorer - A web-based explorer tool for JSR-170, JCR, Jackrabbit...">
+			<p>
+				This web-based tool is based on plain JSF. It aims to
+				provide support for all features of JCR-Repository
+				including optional features like versioning.
+			</p>
+			<p>
+				The specification for JCR 1.0 can be found
+				<a href="http://jcp.org/en/jsr/detail?id=170"
+					class="externalLink"
+					title="JSR 170: Content Repository for Java(TM) technology API">
+					here
+				</a>
+				, the work in progress for 2.0 can be found here:
+				<a href="http://jcp.org/en/jsr/detail?id=283"
+					class="externalLink"
+					title="JSR 283: Content Repository for JavaTM Technology API Version 2.0">
+					here
+				</a>
+				.
+			</p>
+			<p>
+				For development the implementation Apache Jackrabbit is
+				used, which can be found here:
+				<a href="http://jackrabbit.apache.org"
+					class="externalLink" title="Apache Jackrabbit">
+					here
+				</a>
+				.
+			</p>
+		</section>
+		<subsection name="Project status and downloads">
+			<p>
+				The project is still under early development, but
+				browsing and editing of most property types should work
+				by now, also some more features like querying or
+				import/export are implemented. Furthermore the GUI is
+				still an issue, it's not Any comments, feedback or
+				contribution is highly appreciated. The Explorer is
+				still in a stage of early development but it gets some
+				kind of stable by now. Main features including the ones
+				of the current snapshot version are:
+				<ul>
+					<li>Browsing repository content</li>
+					<li>Editing all kinds of properties</li>
+					<li>
+						Standard operations on nodes like adding and
+						removing nodes, properties and mixin node types,
+						locking, check-in/check-out
+					</li>
+					<li>Showing versions of versionable nodes</li>
+					<li>Showing lock details of locked nodes</li>
+					<li>
+						Showing information of the current Repository,
+						Session and Workspace (like vendor informations,
+						repository descriptors, ...)
+					</li>
+					<li>Queries using available query languages</li>
+				</ul>
+			</p>
+			<p>
+				The current stable release is 0.9.5. As the project is
+				under development, new features and bugfixes can be
+				checked out by getting the latest sources from SVN. You
+				can also check out the progress the following:
+			</p>
+			<ul>
+				<li>
+					<a
+						href="http://sourceforge.net/tracker/?group_id=193255"
+						class="externalLink" title="Tracker on SourceForge">
+						Tracker Summary on SourceForge
+					</a>
+					(you can filter by versions, for example)
+				</li>
+				<li>
+					<a
+						href="http://jcr-webexplorer.svn.sourceforge.net/viewvc/jcr-webexplorer/explorer/trunk/CHANGELOG.txt?view=markup"
+						class="externalLink" title="CHANGELOG.txt via ViewVC">
+						CHANGELOG.txt
+					</a>
+					located in the root of the project in Subversion
+					(via SVN WebAccess)
+				</li>
+			</ul>
+		</subsection>
+		<subsection name="JCR-Explorer News">
+			<dl>
+				<dt>
+					<strong>
+						Oktober 12, 2007: JBoss RichFaces used in new
+						version
+					</strong>
+				</dt>
+				<dd>
+					During the last weeks, a couple of JSF-related
+					frameworks and component libraries have been
+					evaluated in order to find the future directon for
+					the Explorer. Dropping JSF in general has never been
+					an option, but a little bit more Web 2.0 would be
+					nice. However, finally JBoss RichFaces became the
+					component library of choice which is intended to
+					solve some issues. First of all, the navigation
+					should be changed to a nice Explorer-like tree view.
+					Furthermore, the GUI should get a facelift and
+					become a little bit more robust. Not really
+					required, but definitely nice to have and useful is
+					the built-in AJAX support that comes with RichFaces.
+					So far, the integration runs pretty smoothly so that
+					the release of RichFaces-powered JCR-Explorer 0.9.6
+					can hopefully roll out soon.
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<strong>
+						August 09, 2007: Version 0.9.5 released, binary
+						download available now
+					</strong>
+				</dt>
+				<dd>
+					The binary download for the new version 0.9.5 is now
+					available on SourceForge.
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<strong>
+						July 22, 2007: Binary download available for
+						version 0.9.4b
+					</strong>
+				</dt>
+				<dd>
+					Due to a couple of user requests a binary version of
+					the latest stable release 0.9.4b is now available.
+					The release mainly contains a WAR archive that just
+					should be deployed into your web container. Now
+					available on the download page.
+				</dd>
+			</dl>
+		</subsection>
+
+	</body>
+</document>

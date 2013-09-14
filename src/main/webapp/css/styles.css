@@ -1,0 +1,351 @@
+body {
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 11px;
+	margin: 0px;
+	marginheight: 0;
+	marginwidth: 0;
+	background-color: #F5F5F5;
+}
+
+img {
+	border: 0px;
+}
+
+a {
+	color: #A08544;
+	text-decoration: none;
+}
+
+a:Active {
+	color: #A08544;
+	text-decoration: none;
+}
+
+a:Visited {
+	color: #A08544;
+	text-decoration: none;
+}
+
+a:Hover {
+	color: #A08544;
+	text-decoration: none;
+}
+
+table {
+	border: 1px;
+}
+
+.fullSizeTable {
+	width: 100%;
+}
+
+td {
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 11px;
+	vertical-align: top;
+}
+
+th {
+	text-align: left;
+	font-size: 12px;
+}
+
+.errorMessage {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.warnMessage {
+	font-weight: bold;
+	color: #CCCC00;
+}
+
+.fatalMessage {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.infoMessage {
+	font-weight: bold;
+	color: #22CC22;
+}
+
+.toolbar {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 0px;
+	border: 1px gray solid;
+}
+
+.toolbarCellButton {
+	background-color: #AAAAAA;
+	margin: 2px;
+	padding: 2px;
+	border: 0px gray solid;
+	width: 1px;
+	vertical-align: middle;
+}
+
+.toolbarCellPathInput {
+	background-color: #AAAAAA;
+	margin: 2px;
+	padding: 2px;
+	border: 1px gray solid;
+	vertical-align: middle;
+	width: *;
+}
+
+.nodeOperationsBox {
+	border-collapse: collapse;
+	width: 100%
+}
+
+.nodeOperationsBox td {
+	border: 1px gray dashed;;
+	padding: 1px;
+	background-color: #CCCCCC;
+	vertical-align: middle;
+}
+
+.formTitle {
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A08544;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-top: 30px;
+	text-align: left;
+}
+
+.buttonLeiste table {
+	margin-top: 10px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.buttonLeiste td {
+	padding-left: 0px;
+	padding-right: 4px;
+}
+
+.submit {
+	color: #fff;
+	padding: 1px;
+	margin: 3px 0 3px 0;
+	border: 1px solid #fff;
+	background: #666;
+	text-align: center;
+	cursor: pointer;
+	font-size: .95em;
+	width: auto;
+}
+
+input.buttonBold,a.buttonBold,a.buttonBold:link,a.buttonBold:visited {
+	color: #000000;
+	background: #CCCCCC;
+	border: 1px solid #999;
+	padding: 2px 5px;
+	cursor: pointer;
+	height: 20px;
+	white-space: nowrap;
+	text-decoration: none;
+	vertical-align: middle;
+	font-family: Arial, Verdana, Tahoma, Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+a.buttonBold:hover {
+	background: #FFFFFF;
+}
+
+.imageButton {
+	border: 0;
+}
+
+.pageColumnNavigation {
+	vertical-align: top;
+	margin: 15px;
+	width: 140px;
+	border: 1px solid gray;
+	background-color: #FFFFFF;
+}
+
+.pageColumnMain {
+	vertical-align: top;
+	margin: 15px;
+	border: 1px solid gray;
+	background-color: #FFFFFF;
+}
+
+.nodeList {
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.mainTabPanelActiveTab {
+	width: 100px;
+}
+
+.mainTabPanelInactiveTab {
+	width: 100px;
+}
+
+.mainTabPanelDisabledTab {
+	width: 100px;
+}
+
+.mainTabPanelContent {
+	width: 100%;
+}
+
+.mainTabActiveSub {
+	
+}
+
+.fullSizeTextArea {
+	width: 100%;
+}
+
+/**
+ * -------------------------------------------------------
+ * Observation Console
+**/
+.eventList {
+	width: 100%;
+}
+
+.eventListRowEven {
+	background-color: #DDDDDD;
+}
+
+tr.eventListRowEven:hover {
+	background-color: DDCCBB;
+}
+
+.eventListRowOdd {
+	
+}
+
+tr.eventListRowOdd:hover {
+	background-color: DDCCBB;
+}
+
+/**
+ * -------------------------------------------------------
+ * Login Page
+**/
+.big {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#loginForm {
+	width: 400px;
+	margin: 50px;
+	padding: 10px;
+	border: 2px dashed gray;
+}
+
+#loginForm table {
+	margin: 20px;
+}
+
+/**
+ * -------------------------------------------------------
+ * Versions List
+**/
+.versionColumnName {
+	width: 100px;
+}
+
+.versionColumnCreated {
+	width: 160px;
+}
+
+.versionColumnRestore {
+	width: 60px;
+}
+
+/**
+ * -------------------------------------------------------
+ * General List Styles
+**/
+.list {
+	width: 100%;
+}
+
+.listRowEven {
+	background-color: #DDDDDD;
+}
+
+tr.listRowEven:hover {
+	background-color: DDCCBB;
+}
+
+.listRowOdd {
+	
+}
+
+tr.listRowOdd:hover {
+	background-color: DDCCBB;
+}
+
+/**
+ * -------------------------------------------------------
+ * Hack for Tabbed Pane
+**/
+.myFaces_panelTabbedPane_activeHeaderCell input,.myFaces_panelTabbedPane_inactiveHeaderCell input,.myFaces_panelTabbedPane_disabledHeaderCell label
+	{
+	border-style: none;
+	width: 100px;
+}
+
+table.myFaces_panelTabbedPane {
+	border-style: none;
+	padding: 0;
+	border-spacing: 0;
+	empty-cells: show;
+	width: 100%;
+}
+
+/**
+ * -------------------------------------------------------
+ * Properties Table
+**/
+.propertiesTable {
+	width: 100%;
+}
+
+.propertyColumnName {
+	width: 200px;
+}
+
+.propertyColumnType {
+	width: 80px;
+}
+
+.propertyColumnBooleanProperty {
+	width: 25px;
+	text-align: center;
+}
+
+.propertyColumnDeclaringNodeType {
+	width: 100px;
+}
+
+.propertyColumnDelete {
+	width: 20px;
+	text-align: center;
+}
+
+.propertyColumnValue {
+	
+}
+
+.propertyColumnExpand {
+	width: 20px;
+	text-align: center;
+}

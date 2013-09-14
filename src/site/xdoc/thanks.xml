@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<document>
+	<properties>
+		<title>Thank you</title>
+	</properties>
+	<body>
+		<section name="Thank you">
+			<p>
+				Thank you,
+				<a href="http://www.camunda.com" class="externalLink"
+					title="Homepage camunda GmbH">
+					camunda GmbH
+				</a>
+				, for releasing the original version of this application
+				into the open source world. Also thank you for the
+				ongoing feedback as well as for hosting this project
+				homepage.
+			</p>
+			<p>
+				Special thanks to Till Hohmann for valuable tips and
+				hints on how to improve the user interface!
+			</p>
+			<p>
+				Thank you to everybody providing us with feedback and
+				helping us improving this application.
+			</p>
+		</section>
+	</body>
+</document>

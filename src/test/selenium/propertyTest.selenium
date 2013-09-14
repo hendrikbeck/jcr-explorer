@@ -1,0 +1,424 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>propertyTest</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">propertyTest</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/jcr-explorer/login.jsf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>_idJsp0:Username</td>
+	<td>SeleniumTest</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Login']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp224</td>
+	<td>label=nt:unstructured</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp226</td>
+	<td>seleniumPropertyTest</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp227</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp227</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>double</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Long</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>long</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Binary</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>binary</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Date[]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>dateArray</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Boolean</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>boolean</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Path[]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>pathArray</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Path</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>path</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Name</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>name</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Binary[]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>binaryArray</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Date</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>date</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=String[]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>stringArray</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Long[]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>longArray</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Name[]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>nameArray</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=String</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>string</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Double[]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>doubleArray</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp219</td>
+	<td>label=Boolean[]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nodeForm:tab1:_idJsp218</td>
+	<td>booleanArray</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp221</td>
+	<td></td>
+</tr>
+<tr>
+	<td>check</td>
+	<td>nodeForm:tab1:_idJsp240</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp242</td>
+	<td>label=Export System View</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp244</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Data export successful.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>exact:&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sv:node xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:ocm="http://jackrabbit.apache.org/ocm" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal" xmlns:fn_old0="http://www.w3.org/2004/10/xpath-functions" sv:name="seleniumPropertyTest"&gt;&lt;sv:property sv:name="jcr:primaryType" sv:type="Name"&gt;&lt;sv:value&gt;nt:unstructured&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="double" sv:type="Boolean"&gt;&lt;sv:value&gt;false&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="dateArray" sv:type="Date"&gt;&lt;sv:value&gt;2007-07-28T12:21:09.171+02:00&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="name" sv:type="Name"&gt;&lt;sv:value&gt;nt:base&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="booleanArray" sv:type="Boolean"&gt;&lt;sv:value&gt;false&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="binaryArray" sv:type="Binary"&gt;&lt;sv:value/&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="string" sv:type="String"&gt;&lt;sv:value/&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="boolean" sv:type="Boolean"&gt;&lt;sv:value&gt;false&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="longArray" sv:type="Long"&gt;&lt;sv:value&gt;0&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="nameArray" sv:type="Name"&gt;&lt;sv:value&gt;nt:base&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="pathArray" sv:type="Path"&gt;&lt;sv:value&gt;/&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="binary" sv:type="Binary"&gt;&lt;sv:value/&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="stringArray" sv:type="String"&gt;&lt;sv:value/&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="long" sv:type="Long"&gt;&lt;sv:value&gt;0&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="date" sv:type="Date"&gt;&lt;sv:value&gt;2007-07-28T12:21:28.359+02:00&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="doubleArray" sv:type="Double"&gt;&lt;sv:value&gt;0.0&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;sv:property sv:name="path" sv:type="Path"&gt;&lt;sv:value&gt;/&lt;/sv:value&gt;&lt;/sv:property&gt;&lt;/sv:node&gt;</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>_idJsp28:_idJsp30</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>nodeForm:tab1:_idJsp242</td>
+	<td>label=Export Document View</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp244</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Data export successful.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>exact:&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;seleniumPropertyTest xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:ocm="http://jackrabbit.apache.org/ocm" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal" xmlns:fn_old0="http://www.w3.org/2004/10/xpath-functions" jcr:primaryType="nt:unstructured" name="nt:base" string="" boolean="false" binary="" long="0" date="2007-07-28T12:21:28.359+02:00" path="/"/&gt;</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/jcr-explorer/query.jsf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>_idJsp28:_idJsp33</td>
+	<td>label=xpath</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>_idJsp28:_idJsp30</td>
+	<td>//seleniumPropertyTest</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>_idJsp28:_idJsp35</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Finished query with</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>/seleniumPropertyTest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>_idJsp28:_idJsp33</td>
+	<td>label=sql</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>_idJsp28:_idJsp30</td>
+	<td>select * from nt:base where jcr:path = '/seleniumPropertyTest'</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>_idJsp28:_idJsp35</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/jcr-explorer/information.jsf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Repository</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/jcr-explorer/contentAuthoring.jsf</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>nodeForm:tab1:_idJsp257</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Do you really want to delete this node?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Node deleted.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>/seleniumPropertyTest</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Changes saved to repository!</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

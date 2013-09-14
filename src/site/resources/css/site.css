@@ -1,0 +1,57 @@
+a {
+	color: #AA3333;
+}
+
+a:link {
+	color: #AA3333;
+}
+
+a:hover {
+	color: #EE3333;
+}
+
+a:visited {
+	color: #AA3333;
+}
+
+h2 {
+	font-size: 22px;
+	color: rgb(170, 51, 51);
+	font-weight: bold;
+	border: 0px;
+	background-color: white;
+	padding: 0px
+}
+
+#navcolumn h5 {
+	text-weight: bold;
+	font-size: 11px;
+	color: #888888;
+	margin-top: 5px;
+	border: 0px;
+}
+
+#breadcrumbs {
+	border-bottom: 0px;
+	background-color: white;
+	border-top: #AA3333 1px solid;
+}
+
+#downloadbox {
+	float: right;
+	margin-left: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	border: 1px solid #999;
+	background-color: #eee;
+	width: 17.5em;
+}
+
+#downloadbox h3 {
+	border: none;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 0px;
+	border-bottom: 1px dashed gray;
+}

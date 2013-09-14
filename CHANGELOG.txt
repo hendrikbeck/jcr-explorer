@@ -1,0 +1,34 @@
+==0.9.6==
+===New Features===
+* ObservationConsole allows multiple selection of event types (#1775291)
+* ObservationConsole provides timestamp of event incoming date (#1775297)
+* EventList in ObservationConsole is sorted descendantly (#1780597)
+* CSS update for event list in ObservationConsole (#1780945)
+* Provide refresh button (#1775290)
+* Provide information about size of binary property values (#1795776)
+* Workspace support (#1776432)
+* Allow to restore versions (#1799932)
+* Show date and time for date properties (#1802237)
+
+===Bugfixes===
+* Doesn't work with JBoss higher than 4.0.x (#1775013)
+* Link to non-existant node leads to exception (#1775301) 
+
+
+==0.9.5==
+===New Features===
+* BinaryViewerServlet fixed (JCR session was not available) Thx to Markus Reis for digging me into that
+* CSS tuning
+* Multi-value expansion now uses JcrUtils.getEmptyValue() and is now possible with all property types
+* Query and query results are put together into one page (query.jsp)
+* Export provides now the choice between exporting SystemView DocumentView
+* Changed the order of elements to follow the DTD (some app server validate on deploy) --> thanks to Tako Schotanus
+* Added Lock as a new Module (*.module.lock, LockWrapper). Initially showing Lock info of the selected node in separate tab
+* JSF message output added to login.jsp, errors on login are displayed now
+* Initial version of observation console implemented (#1726725)
+
+===Bugfixes===
+* StringValues of References should only contain the UUID (#1735766)
+* Properties of type PATH and NAME become STRING on save (#1720569)
+* Refactored packages to org.jcrexplorer.* (#1763880)
+* 'Go' button in title bar now switches view to content panel (#1770673)

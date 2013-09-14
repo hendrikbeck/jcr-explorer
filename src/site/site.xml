@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="JCR-Explorer">
+	<publishDate position="top" />
+	<body>
+		<menu name="JCR-Explorer">
+			<item name="Home" href="/index.html" />
+			<item name="Downloads" href="/downloads.html" />
+			<item name="FAQ" href="/faq.html" />
+			<item name="Changelog" href="/changelog.html" />
+			<item name="Screenshots" href="/screenshots.html" />
+			<item name="Thanks" href="/thanks.html" />
+		</menu>
+		<menu name="Documentation">
+			<item name="Getting Started"
+				href="/documentation/index.html" />
+			<item name="Compatibilty" href="/compatibility.html" />
+		</menu>
+		${reports}
+	</body>
+</project>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<document>
+	<properties>
+		<title>Compatibilty</title>
+	</properties>
+	<body>
+		<section name="JCR Implementations">
+			<p>
+				At the moment, the only tested implementation is
+				<a href="http://jackrabbit.apache.org"
+					class="externalLink" title="Apache Jackrabbit">
+					Apache Jackrabbit
+				</a>
+				version 1.3.2. Experiences with other implementations
+				are highly appreciated.
+			</p>
+		</section>
+		<section name="Containers">
+			<subsection name="Apache Tomcat">
+				<p>No known issues.</p>
+			</subsection>
+			<subsection name="JBoss 4.0.x">
+				<p>No known issues.</p>
+			</subsection>
+			<subsection name="JBoss 4.2.x">
+				<p>No known issues.</p>
+				<p>
+					A conflict with the built-in JSF implementation that
+					occured with versions 4.2.x and higher was fixed
+					with bug no. #1775013 (see
+					<a
+						href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1775013&amp;group_id=193255&amp;atid=944681"
+						class="externalLink" title="Bug #1775013 on SourceForge">
+						Bug on SourceForge issue tracker
+					</a>
+					). The fix is available in Subversion and will be
+					released with version 0.9.6.
+				</p>
+			</subsection>
+			<subsection name="Sun AS / Glassfish">
+				<p>
+					Due to JSF implementation conflicts between the Sun
+					Reference Implementation (that is shipped with Sun
+					servers) and MyFaces (which is used for development
+					and bundled with JCR-Explorer at the moment) the
+					JCR-Explorer does not run in these servers. We are
+					working on this bug, although we didn't solve it yet
+					:-( Stay tuned!
+				</p>
+				<p>
+					If you wish to run JCR-Explorer in these server
+					please feel free to let us know. The more feedback
+					we get, the higher the priority will be to solve it!
+					Or if you have some tips on how to solve this issue,
+					please let us know, too!
+				</p>
+			</subsection>
+		</section>
+		<section name="JSF / Web Components">
+			<subsection name="MyFaces">
+				<p>
+					<a href="http://myfaces.apache.org"
+						class="externalLink" title="Apache MyFaces">
+						Apache MyFaces
+					</a>
+					is used for development and testing.
+				</p>
+			</subsection>
+			<subsection name="Other components used">
+				The following components are used:
+				<ul>
+					<li>Apache MyFaces Tomahawk</li>
+					<li>
+						<a
+							href="http://jscook.yuanheng.org/JSCookMenu/index.html"
+							title="Homepage JSCookMenu" class="externalLink">
+							JSCookMenu
+						</a>
+					</li>
+				</ul>
+			</subsection>
+		</section>
+	</body>
+</document>

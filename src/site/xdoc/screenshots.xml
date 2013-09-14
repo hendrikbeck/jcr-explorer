@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<document>
+	<properties>
+		<title>Screenshots</title>
+	</properties>
+	<body>
+		<section
+			name="Screenshots 0.9.6-SNAPSHOT (NOT YET RELEASED!!)">
+			<p>
+				This is the upcoming SNAPSHOT version which is NOT YET
+				released. In some cases differents between the current
+				stable version and the next version are being shown to
+				give an impression of the new version and to allow
+				feedback more easily before the version is going to be
+				released.
+			</p>
+			<subsection name="Main Panel">
+				<img src="images/screenshots/0.9.6-SNAPSHOT/mainContentPanel.png" />
+			</subsection>
+			<subsection name="Observation">
+				<img src="images/screenshots/0.9.6-SNAPSHOT/observation.png" />
+			</subsection>
+		</section>
+		<section
+			name="Screenshots 0.9.5 (released on August 9th, current version)">
+			<subsection name="Main Panel">
+				<img src="images/screenshots/0.9.5/main-content.png" />
+			</subsection>
+			<subsection name="Query">
+				<img src="images/screenshots/0.9.5/query.png" />
+			</subsection>
+			<subsection name="Export">
+				<img src="images/screenshots/0.9.5/export.png" />
+			</subsection>
+			<subsection name="Import">
+				<img src="images/screenshots/0.9.5/import.png" />
+			</subsection>
+			<subsection name="Observation">
+				<img src="images/screenshots/0.9.5/observation.png" />
+			</subsection>
+			<subsection name="Locking">
+				<img src="images/screenshots/0.9.5/locking.png" />
+			</subsection>
+			<subsection name="Versions">
+				<img src="images/screenshots/0.9.5/versioning.png" />
+			</subsection>
+			<subsection name="Informations">
+				<img src="images/screenshots/0.9.5/informations.png" />
+			</subsection>
+		</section>
+	</body>
+</document>

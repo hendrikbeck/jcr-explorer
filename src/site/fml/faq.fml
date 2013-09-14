@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faqs title="Frequently Asked Questions">
+
+  <part id="general">
+    <title>General</title>
+
+    <faq id="whats-jcr">
+      <question>
+        What is JCR / JSR-170 / Jackrabbit?
+      </question>
+      <answer>
+        <p>
+          JCR is the acronym of the
+          <a href="http://jcp.org/en/jsr/detail?id=170">JSR 170: Content
+          Repository for Java&#8482; technology API</a>, a standard interface
+          for accessing content repositories. <a href="http://jackrabbit.apache.org">Jackrabbit</a> is the reference implementation of that standard and the most popular Open-Souce implementation. It is full-featured and used in production environments. JCR-Explorer uses Jackrabbit for development and testing.
+        </p>
+      </answer>
+    </faq>
+    
+    <faq id="whats-jcr-explorer">
+      <question>
+        What is the JCR-Explorer and what is cool about it?
+      </question>
+      <answer>
+        <p>
+          The JCR-Explorer is a web-based tool to administer a JSR-170-based content repository like Apache Jackrabbit. For example it allows to browse and edit content, query the repository or view repository information.
+        </p>
+        <p>
+          Due to its web-based nature all users having access to the server your repository is running on can also use JCR-Explorer to browse it.
+        </p>
+        <p>
+          Alternatively there are solutions available running in Eclipse (like JCR Browser, also on SourceForge) or using Java WebStart (like JCR Controller). The choice is on you!
+        </p>
+      </answer>
+    </faq>
+    
+    <faq id="compatibility">
+      <question>
+        In which containers / application servers does JCR-Explorer run?
+      </question>
+      <answer>
+        <p>
+        The main issue regarding this question is which JSF implementation to use. We are currently working on dropping the bundled MyFaces implementation but we faced some problems that are still unsolved.
+        </p>
+        <p>
+        JCR-Explorer should work fine in any version of Tomcat and JBoss. Sun AS and Glassfish don't work, but we are working on getting it to work.
+        </p>
+        <p>
+        Please have a look at the &quot;Compatibility&quot; page for further details.
+        </p>
+      </answer>
+    </faq>
+      
+  </part>
+
+</faqs>

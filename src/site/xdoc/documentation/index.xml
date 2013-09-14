@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<document>
+	<properties>
+		<title>Documentation</title>
+	</properties>
+	<body>
+		<section name="Getting Started with JCR Web-Explorer">
+			<p>
+				First you need to have a JCR repository running. The
+				Explorer then expects you to have this repository
+				available via JNDI. Then you need a version of the
+				JCR-Explorer to deploy into your container. If you are
+				at that point, access it via
+				http://localhost:8080/jcr-explorer/login.jsf and use
+				your JNDI name to log in.
+			</p>
+		</section>
+		<section name="Getting a deployable version">
+			<subsection name="Build from sources">
+				<p>
+					Either check-out the latest sources (tagged version
+					or snapshot) from the SVN repository or download the
+					latest release of the sources. Then just build the
+					WAR by executing 'mvn package' from the command
+					line.
+				</p>
+			</subsection>
+			<subsection name="Use a binary release">
+				<p>
+					Binary release contain a file jcr-explorer.war,
+					which can just be deployed into your container.
+				</p>
+				<p>
+					Be aware that these releases include bundled
+					libraries. Depending on your environment you could
+					wish to not have some the libraries included. Either
+					remove them by hand from the WAR file (e.g. WinRAR
+					can open the WAR file and allows you to remove
+					single files manually) or try to build your own WAR
+					file from the sources. In that case you can toggle
+					including of the files by changing the scope of the
+					relevant dependencies in the pom.xml to 'provided'.
+				</p>
+			</subsection>
+		</section>
+	</body>
+</document>
